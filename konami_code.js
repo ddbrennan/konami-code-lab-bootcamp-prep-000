@@ -20,9 +20,17 @@ function onKeyDownHandler(e) {
 
 
 function init() {
+<<<<<<< HEAD
   const body = document.getElementsByTagName('body')[0]
   // Write your JavaScript code inside the init() function
   body.addEventListener('keydown', function(e) {
     onKeyDownHandler(e)
   })
+=======
+  const body = document.getElementsByTagName('body')
+  // Write your JavaScript code inside the init() function
+  body.addEventListener('keydown', function(e)) {
+    onKeyDownHandler(e)
+  }
+>>>>>>> d86b97e183b95ccd2f2ffb8e00412d5bca3c1178
 }
